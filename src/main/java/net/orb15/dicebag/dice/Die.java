@@ -5,18 +5,18 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Date;
 
-public class Die 
+public abstract class Die 
 {
 	private int size;
 	private Random rnd;
 	
-	public Die()
+	protected Die()
 	{
 		rnd = new Random(new Date().getTime());
 		size = 6;
 	}
 	
-	public Die(int size)
+	protected Die(int size)
 	{
 		if(size <= 1)
 			throw new IllegalArgumentException(size + " is not a valid die size");
