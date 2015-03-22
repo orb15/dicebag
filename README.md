@@ -1,2 +1,2 @@
 # dicebag
-models ployhedral dice used in gaming
+models polyhedral dice used in gaming
