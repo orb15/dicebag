@@ -3,6 +3,7 @@ models ployhedral dice used in gaming
 
 
 Provides the following features:  
+
 * Has dice for the following: d2 d3 d4 d6 d8 d10 d12 d20 d100  
 * Also supports: dFudge (for FUDGE +1/0/-1 rolls)  
 * Supports a dX class so you can create your own die type if needed  
